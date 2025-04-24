@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
@@ -25,18 +25,23 @@ export const Hero = () => {
         </h2>
         <div className="flex gap-4 justify-center my-8">
           <Button variant="outline" size="icon" className="hover:scale-105 transition-transform hover:bg-indigo-50" asChild>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+            <a href="https://github.com/laraibmujeeb" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
               <Github className="h-5 w-5 text-indigo-600" />
             </a>
           </Button>
           <Button variant="outline" size="icon" className="hover:scale-105 transition-transform hover:bg-purple-50" asChild>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+            <a href="https://www.linkedin.com/in/laraib-mujeeb-6b977b1b1/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
               <Linkedin className="h-5 w-5 text-purple-600" />
             </a>
           </Button>
           <Button variant="outline" size="icon" className="hover:scale-105 transition-transform hover:bg-pink-50" asChild>
-            <a href="mailto:contact@example.com" aria-label="Email Contact">
+            <a href="mailto:mujeeblaraib@gmail.com" aria-label="Email Contact">
               <Mail className="h-5 w-5 text-pink-600" />
+            </a>
+          </Button>
+          <Button variant="outline" size="icon" className="hover:scale-105 transition-transform hover:bg-emerald-50" asChild>
+            <a href="tel:+918299371557" aria-label="Phone Contact">
+              <Phone className="h-5 w-5 text-emerald-600" />
             </a>
           </Button>
         </div>
