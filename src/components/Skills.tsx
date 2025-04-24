@@ -11,10 +11,10 @@ export const Skills = () => {
   };
 
   return (
-    <section id="skills" className="py-24 px-4 bg-white">
+    <section id="skills" className="py-24 px-4 bg-gradient-to-br from-purple-50/30 via-pink-50/30 to-white">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Technical Skills</h2>
-        <Card className="backdrop-blur-sm bg-white/50 shadow-lg">
+        <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-8 text-center">Technical Skills</h2>
+        <Card className="backdrop-blur-sm bg-white/80 shadow-xl hover:shadow-2xl transition-shadow border-t border-purple-100">
           <CardContent className="pt-6">
             <div className="space-y-6">
               {Object.entries(skills).map(([category, categorySkills]) => (
@@ -25,7 +25,7 @@ export const Skills = () => {
                       <Badge
                         key={skill}
                         variant="secondary"
-                        className="px-3 py-1 text-sm bg-indigo-50 text-indigo-700 hover:bg-indigo-100"
+                        className="px-3 py-1 text-sm bg-gradient-to-r from-indigo-50 to-purple-50 text-indigo-700 hover:from-indigo-100 hover:to-purple-100 transition-colors"
                       >
                         {skill}
                       </Badge>
