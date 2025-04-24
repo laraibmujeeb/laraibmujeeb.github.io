@@ -10,12 +10,16 @@ export const About = () => {
           <CardContent className="pt-6">
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                Senior Full Stack Web Developer with over 2 years of expertise in designing and implementing scalable web applications using AWS & PHP stack.
-                I specialize in creating efficient, maintainable code that drives business growth.
+                I'm a Full Stack Developer with over 3 years of experience building robust, scalable, and user-centric web applications. 
+                I specialize in PHP (Laravel) for backend development and have strong expertise in JavaScript frameworks like React.js and Vue.js for frontend.
               </p>
               <p>
-                Passionate about modern web technologies and best practices, I consistently deliver high-quality solutions
-                that exceed client expectations and drive measurable results.
+                Throughout my career, I've worked on diverse projects including multi-tenant SaaS applications, school fee management systems, 
+                property tax systems for government organizations, and fitness platforms with social features.
+              </p>
+              <p>
+                I'm enthusiastic about solving real-world problems with code, collaborating with teams, and constantly learning new technologies 
+                to deliver efficient and modern digital solutions.
               </p>
             </div>
           </CardContent>

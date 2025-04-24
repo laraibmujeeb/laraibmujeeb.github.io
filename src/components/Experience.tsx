@@ -15,17 +15,18 @@ export const Experience = () => {
                   <Briefcase className="h-6 w-6 text-indigo-600" />
                 </div>
                 <div>
-                  <CardTitle>Senior Full-stack Developer</CardTitle>
-                  <p className="text-sm text-gray-500">Weber Consulting • 2022 - Present</p>
+                  <CardTitle>Full Stack Developer</CardTitle>
+                  <p className="text-sm text-gray-500">Multiple Projects • 3+ Years</p>
                 </div>
               </div>
             </CardHeader>
             <CardContent>
               <ul className="space-y-2 text-gray-600 list-disc list-inside">
-                <li>Led development of enterprise-level web applications using AWS & PHP stack</li>
-                <li>Collaborated with cross-functional teams to deliver high-quality software solutions</li>
-                <li>Implemented CI/CD pipelines improving deployment efficiency by 40%</li>
-                <li>Mentored junior developers and conducted code reviews</li>
+                <li>Developed multi-tenant SaaS applications and school fee management systems using Laravel and React.js</li>
+                <li>Built property tax systems for government organizations with secure authentication and role management</li>
+                <li>Created fitness platforms with social features using Vue.js and Laravel backend</li>
+                <li>Implemented admin panels using FilamentPHP for efficient content management</li>
+                <li>Designed and optimized MySQL databases for scalable applications</li>
               </ul>
             </CardContent>
           </Card>

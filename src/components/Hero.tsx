@@ -7,10 +7,10 @@ export const Hero = () => {
     <section className="min-h-[90vh] flex flex-col justify-center items-center text-center px-4 bg-gradient-to-b from-indigo-50 via-white to-white">
       <div className="max-w-4xl mx-auto space-y-6">
         <h1 className="text-5xl md:text-7xl font-bold text-gray-900 tracking-tight">
-          Lazalo Mageba
+          Laraib Mujeeb
         </h1>
-        <h2 className="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto">
-          Senior Full-stack Developer crafting scalable web solutions with AWS & PHP
+        <h2 className="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          Full Stack Developer crafting scalable web solutions with Laravel & React
         </h2>
         <div className="flex gap-4 justify-center my-8">
           <Button variant="outline" size="icon" className="hover:scale-105 transition-transform" asChild>
