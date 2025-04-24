@@ -22,11 +22,13 @@ export const Experience = () => {
             </CardHeader>
             <CardContent>
               <ul className="space-y-2 text-gray-600 list-disc list-inside">
+                <li>Started as a freelance developer working on diverse client projects using Angular and Laravel</li>
                 <li>Developed multi-tenant SaaS applications and school fee management systems using Laravel and React.js</li>
                 <li>Built property tax systems for government organizations with secure authentication and role management</li>
                 <li>Created fitness platforms with social features using Vue.js and Laravel backend</li>
                 <li>Implemented admin panels using FilamentPHP for efficient content management</li>
                 <li>Designed and optimized MySQL databases for scalable applications</li>
+                <li>Utilized Angular for building responsive and interactive user interfaces in various projects</li>
               </ul>
             </CardContent>
           </Card>
@@ -35,3 +37,4 @@ export const Experience = () => {
     </section>
   );
 };
+
