@@ -1,5 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { GraduationCap, School } from "lucide-react";
 
 export const Education = () => {
   return (
@@ -7,22 +8,34 @@ export const Education = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Education</h2>
         <div className="space-y-6">
-          <Card>
+          <Card className="hover:shadow-lg transition-shadow">
             <CardHeader>
-              <CardTitle>Chalmers Khan Matolo & Mahlanga University</CardTitle>
-              <p className="text-sm text-gray-500">Bachelor's in Engineering • ME/CE</p>
+              <div className="flex items-center space-x-4">
+                <GraduationCap className="w-8 h-8 text-indigo-600" />
+                <CardTitle>University Institute of Engineering and Technology, Kanpur</CardTitle>
+              </div>
+              <p className="text-sm text-gray-500">Bachelor of Technology (B.Tech)</p>
+              <p className="text-sm text-gray-500">July 2015 – May 2019</p>
             </CardHeader>
             <CardContent>
               <p className="text-gray-600">
-                Focus on Mechanical Engineering and Computer Engineering
+                Completed Bachelor's degree in Engineering, gaining comprehensive technical knowledge and skills.
               </p>
             </CardContent>
           </Card>
-          <Card>
+          <Card className="hover:shadow-lg transition-shadow">
             <CardHeader>
-              <CardTitle>Idaho Mandela English School</CardTitle>
-              <p className="text-sm text-gray-500">High School Diploma</p>
+              <div className="flex items-center space-x-4">
+                <School className="w-8 h-8 text-purple-600" />
+                <CardTitle>Halim Muslim English School, Kanpur</CardTitle>
+              </div>
+              <p className="text-sm text-gray-500">Senior Secondary (XII – CBSE)</p>
             </CardHeader>
+            <CardContent>
+              <p className="text-gray-600">
+                Completed Senior Secondary Education with a strong academic foundation.
+              </p>
+            </CardContent>
           </Card>
         </div>
       </div>
